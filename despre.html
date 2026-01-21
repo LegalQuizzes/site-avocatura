@@ -32,6 +32,15 @@
         }
     </script>
 </head>
+        <!-- Mobile Menu ADAUGAT CHATGPT -->
+<div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-[#111318] border-b border-gray-200 dark:border-gray-700">
+  <nav class="flex flex-col px-4 py-4 gap-4">
+    <a href="index.html" class="nav-link">Acasă</a>
+    <a href="despre.html" class="nav-link">Despre Noi</a>
+    <a href="servicii.html" class="nav-link">Servicii</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </nav>
+</div>
 <body class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white font-display overflow-x-hidden">
 <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
 <!-- Navigation -->
@@ -381,4 +390,12 @@
 </div>
 </footer>
 </div>
+        <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+</script>
 </body></html>
