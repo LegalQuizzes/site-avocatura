@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ro"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact - Cabinet Avocat</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display antialiased text-[#111318] dark:text-white transition-colors duration-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] dark:border-b-gray-700 bg-white dark:bg-[#1a2233] px-10 py-3 shadow-sm">
+<div class="flex items-center gap-4 text-[#111318] dark:text-white">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_319)">
+<path d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z" fill="currentColor"></path>
+</g>
+<defs>
+<clippath id="clip0_6_319"><rect fill="white" height="48" width="48"></rect></clippath>
+</defs>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Cabinet Avocat</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Acasă</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Despre Noi</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Servicii</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Echipă</a>
+<a class="text-sm font-medium leading-normal text-primary font-bold" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-blue-700 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em] shadow-lg shadow-blue-500/20">
+<span class="truncate">Consultă un Avocat</span>
+</button>
+</div>
+<div class="lg:hidden">
+<span class="material-symbols-outlined text-2xl cursor-pointer">menu</span>
+</div>
+</header>
+<div class="flex flex-1 justify-center py-10 px-4 md:px-10 lg:px-40">
+<div class="flex flex-col max-w-[1200px] flex-1 gap-12">
+<!-- Page Heading -->
+<div class="flex flex-col gap-3 text-center md:text-left">
+<p class="text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em] text-[#111318] dark:text-white">Contactați-ne</p>
+<p class="text-[#616f89] dark:text-gray-400 text-lg font-normal leading-normal max-w-2xl">
+                        Suntem aici să vă apărăm drepturile. Programați o consultanță sau trimiteți-ne un mesaj rapid. 
+                        Răspundem în maximum 24 de ore.
+                    </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+<!-- Left Column: Contact Form -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="bg-white dark:bg-[#1a2233] rounded-xl border border-[#dbdfe6] dark:border-gray-700 p-6 md:p-8 shadow-sm">
+<h3 class="text-xl font-bold mb-6 text-[#111318] dark:text-white">Trimite un mesaj</h3>
+<form action="#" class="flex flex-col gap-5">
+<label class="flex flex-col w-full">
+<p class="text-base font-medium leading-normal pb-2 text-[#111318] dark:text-gray-200">Nume și Prenume</p>
+<input class="form-input flex w-full min-w-0 resize-none overflow-hidden rounded-lg text-[#111318] dark:text-white dark:bg-[#252b3b] focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbdfe6] dark:border-gray-600 bg-white h-12 placeholder:text-[#616f89] dark:placeholder:text-gray-500 px-4 text-base font-normal leading-normal transition-all" placeholder="Introduceți numele dumneavoastră" type="text"/>
+</label>
+<div class="flex flex-col md:flex-row gap-5">
+<label class="flex flex-col w-full md:w-1/2">
+<p class="text-base font-medium leading-normal pb-2 text-[#111318] dark:text-gray-200">Email</p>
+<input class="form-input flex w-full min-w-0 resize-none overflow-hidden rounded-lg text-[#111318] dark:text-white dark:bg-[#252b3b] focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbdfe6] dark:border-gray-600 bg-white h-12 placeholder:text-[#616f89] dark:placeholder:text-gray-500 px-4 text-base font-normal leading-normal transition-all" placeholder="exemplu@email.com" type="email"/>
+</label>
+<label class="flex flex-col w-full md:w-1/2">
+<p class="text-base font-medium leading-normal pb-2 text-[#111318] dark:text-gray-200">Telefon</p>
+<input class="form-input flex w-full min-w-0 resize-none overflow-hidden rounded-lg text-[#111318] dark:text-white dark:bg-[#252b3b] focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbdfe6] dark:border-gray-600 bg-white h-12 placeholder:text-[#616f89] dark:placeholder:text-gray-500 px-4 text-base font-normal leading-normal transition-all" placeholder="+40 700 000 000" type="tel"/>
+</label>
+</div>
+<label class="flex flex-col w-full">
+<p class="text-base font-medium leading-normal pb-2 text-[#111318] dark:text-gray-200">Subiect</p>
+<div class="relative">
+<select class="form-select flex w-full min-w-0 appearance-none rounded-lg text-[#111318] dark:text-white dark:bg-[#252b3b] focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbdfe6] dark:border-gray-600 bg-white h-12 px-4 text-base font-normal leading-normal transition-all bg-[right_1rem_center]">
+<option>Consultanță Juridică</option>
+<option>Litigii Civile</option>
+<option>Drept Penal</option>
+<option>Dreptul Muncii</option>
+<option>Urgent / Altul</option>
+</select>
+</div>
+</label>
+<label class="flex flex-col w-full">
+<p class="text-base font-medium leading-normal pb-2 text-[#111318] dark:text-gray-200">Cum vă putem ajuta?</p>
+<textarea class="form-textarea flex w-full min-w-0 resize-y rounded-lg text-[#111318] dark:text-white dark:bg-[#252b3b] focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-[#dbdfe6] dark:border-gray-600 bg-white min-h-[140px] placeholder:text-[#616f89] dark:placeholder:text-gray-500 p-4 text-base font-normal leading-normal transition-all" placeholder="Descrieți pe scurt problema dumneavoastră..."></textarea>
+</label>
+<div class="flex items-center gap-3 py-2">
+<input class="rounded border-gray-300 text-primary focus:ring-primary dark:bg-[#252b3b] dark:border-gray-600" id="terms" type="checkbox"/>
+<label class="text-sm text-[#616f89] dark:text-gray-400" for="terms">
+                                        Sunt de acord cu prelucrarea datelor personale conform <a class="text-primary hover:underline" href="#">Politicii de Confidențialitate</a>.
+                                    </label>
+</div>
+<button class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary hover:bg-blue-700 text-white text-base font-bold leading-normal tracking-[0.015em] transition-all shadow-lg shadow-blue-500/30" type="submit">
+                                    Trimite Mesaj
+                                </button>
+<p class="text-xs text-center text-[#616f89] dark:text-gray-500 mt-2">
+<span class="material-symbols-outlined align-middle text-sm mr-1">lock</span>
+                                    Toate mesajele sunt confidențiale sub secretul profesional.
+                                </p>
+</form>
+</div>
+</div>
+<!-- Right Column: Info & Map -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Contact Cards Vertical Stack -->
+<div class="flex flex-col gap-4">
+<!-- Address -->
+<div class="flex items-start gap-4 rounded-xl border border-[#dbdfe6] dark:border-gray-700 bg-white dark:bg-[#1a2233] p-5 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 text-primary">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111318] dark:text-white text-base font-bold leading-tight">Adresă Birou</h2>
+<p class="text-[#616f89] dark:text-gray-400 text-sm font-normal leading-normal">Strada Exemplului nr. 10, Sector 1, București</p>
+<a class="text-primary text-sm font-medium mt-1 hover:underline inline-flex items-center gap-1" href="#">
+                                        Vezi direcții <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Phone -->
+<div class="flex items-start gap-4 rounded-xl border border-[#dbdfe6] dark:border-gray-700 bg-white dark:bg-[#1a2233] p-5 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 text-primary">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111318] dark:text-white text-base font-bold leading-tight">Telefon</h2>
+<p class="text-[#616f89] dark:text-gray-400 text-sm font-normal leading-normal">Disponibil Luni - Vineri, 09:00 - 18:00</p>
+<a class="text-[#111318] dark:text-white text-lg font-bold mt-1 hover:text-primary transition-colors" href="tel:+40700000000">
+                                        +40 700 000 000
+                                    </a>
+</div>
+</div>
+<!-- Email -->
+<div class="flex items-start gap-4 rounded-xl border border-[#dbdfe6] dark:border-gray-700 bg-white dark:bg-[#1a2233] p-5 shadow-sm transition-transform hover:-translate-y-1">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 text-primary">
+<span class="material-symbols-outlined text-[24px]">mail</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-[#111318] dark:text-white text-base font-bold leading-tight">Email</h2>
+<p class="text-[#616f89] dark:text-gray-400 text-sm font-normal leading-normal">Pentru solicitări generale</p>
+<a class="text-primary text-base font-medium mt-1 hover:underline" href="mailto:contact@avocat-exemplu.ro">
+                                        contact@avocat-exemplu.ro
+                                    </a>
+</div>
+</div>
+</div>
+<!-- Map Section -->
+<div class="rounded-xl overflow-hidden border border-[#dbdfe6] dark:border-gray-700 shadow-sm h-full min-h-[300px] relative group">
+<!-- Placeholder for Interactive Map -->
+<img alt="Harta locație cabinet" class="w-full h-full object-cover min-h-[300px]" data-alt="Map view of Bucharest city center showing streets and location marker" data-location="Bucharest, Romania" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_fs9T-EqjYVX_YXORPvVpoa-a4dkAWQ5GnXvg18f8jc5I5WhT9RzlR2ilyVxZ4KX_hXGhdLlOdFJTJxfMa4MrTg2qs6JfNXrubYr-bVO1VP6d8yDG83SZH6LIgC3BqM6YMhRtyD1oTVTeJyuN1vQ0HpmfLKRMS3kevEtMLgzjjKkW0GHTek49BMVoBgBvzZ6crp2puInujF-Y220R0SapU-dRIE27reCTB2VLnjfpKSd-Dm3D1cuFcdoDl3kLVnHgHJabLcxh80j8"/>
+<div class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors pointer-events-none"></div>
+<!-- Floating Map Label -->
+<div class="absolute bottom-4 left-4 right-4 bg-white/95 dark:bg-[#1a2233]/95 backdrop-blur-sm p-3 rounded-lg border border-gray-200 dark:border-gray-600 shadow-lg flex justify-between items-center">
+<div>
+<p class="text-xs text-gray-500 dark:text-gray-400 font-bold uppercase tracking-wider">Locație</p>
+<p class="text-sm font-bold text-[#111318] dark:text-white">Piața Victoriei, București</p>
+</div>
+<button class="h-8 w-8 flex items-center justify-center bg-primary rounded text-white hover:bg-blue-700 transition-colors">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="mt-auto bg-white dark:bg-[#1a2233] border-t border-[#f0f2f4] dark:border-gray-700 py-12 px-10">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-8">
+<div class="flex flex-col gap-4 max-w-xs">
+<div class="flex items-center gap-2 text-[#111318] dark:text-white">
+<div class="size-6 text-primary">
+<svg class="w-full h-full" fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"></path>
+</svg>
+</div>
+<span class="text-lg font-bold">Cabinet Avocat</span>
+</div>
+<p class="text-[#616f89] dark:text-gray-400 text-sm">
+                        Servicii juridice de excelență pentru persoane fizice și companii. Drepturile tale sunt prioritatea noastră.
+                    </p>
+</div>
+<div class="flex flex-wrap gap-12 md:gap-24">
+<div class="flex flex-col gap-3">
+<h4 class="text-[#111318] dark:text-white font-bold text-sm uppercase tracking-wider">Navigare</h4>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Acasă</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Servicii</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Echipă</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Blog Juridic</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="text-[#111318] dark:text-white font-bold text-sm uppercase tracking-wider">Legal</h4>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Termeni și Condiții</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Politica de Confidențialitate</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">Politica Cookies</a>
+<a class="text-[#616f89] dark:text-gray-400 text-sm hover:text-primary dark:hover:text-primary transition-colors" href="#">ANPC</a>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-[#f0f2f4] dark:border-gray-800 text-center md:text-left">
+<p class="text-[#9aa2b1] text-xs">
+                    © 2024 Cabinet Avocat Exemplu. Toate drepturile rezervate.
+                </p>
+</div>
+</footer>
+</div>
+</body></html>

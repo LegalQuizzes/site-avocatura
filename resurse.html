@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ro"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Avocat Partners - Resurse Juridice</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem", 
+                        "lg": "0.5rem", 
+                        "xl": "0.75rem", 
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: "Public Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<div class="relative flex h-auto w-full flex-col bg-white dark:bg-[#1a202c] border-b border-[#f0f2f4] dark:border-gray-700">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-10 flex flex-1 justify-center py-2">
+<div class="layout-content-container flex flex-col max-w-[1280px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap py-3">
+<div class="flex items-center gap-3 text-[#111318] dark:text-white">
+<div class="text-primary size-8 flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">balance</span>
+</div>
+<h2 class="text-[#111318] dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">Avocat Partners</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#111318] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Acasă</a>
+<a class="text-[#111318] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Despre Noi</a>
+<a class="text-[#111318] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Servicii</a>
+<a class="text-[#111318] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Echipa</a>
+<a class="text-primary text-sm font-bold leading-normal" href="#">Resurse &amp; Blog</a>
+<a class="text-[#111318] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary hover:bg-blue-700 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Consultă un avocat</span>
+</button>
+</div>
+<div class="lg:hidden">
+<button class="text-[#111318] dark:text-white p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<!-- HeroSection -->
+<div class="relative w-full bg-white dark:bg-background-dark">
+<div class="px-4 md:px-10 flex justify-center py-8 md:py-12">
+<div class="flex flex-col max-w-[1280px] w-full">
+<div class="flex flex-col gap-8 bg-cover bg-center bg-no-repeat rounded-2xl items-center justify-center p-8 md:p-16 relative overflow-hidden" data-alt="Law library background with dark gradient overlay" style='background-image: linear-gradient(rgba(17, 19, 24, 0.8) 0%, rgba(17, 19, 24, 0.9) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlV7o4oAePPh-AziNYmNDI-kFuwZTgcPG1XHNF3ookcnGSgjrXvI9f9kXX8c78b1noP6-pjz9-5AyKdXwx0PqBOoOF6KsJUhWdyRcCC80i-4VIg7JwBwTtwt0LfjcOWSMJzNeFGqlye0S5Uln5P4C0Mu_5hhG7ibnvbJsLrIMmEokoJTuhEghEobc1ZKAohpgxpz5_Rhq0xGi4PxIGcBz8prpFFjOX-e-W4YVF4lEkd4EAwg7tInzuWl5FVls1NE8Eu3EBM2JNTjE7");'>
+<div class="flex flex-col gap-4 text-center z-10 max-w-2xl">
+<span class="text-blue-400 font-bold tracking-wider text-xs uppercase">Biblioteca Juridică</span>
+<h1 class="text-white text-3xl md:text-5xl font-black leading-tight tracking-[-0.033em]">
+                            Resurse &amp; Analize Juridice
+                        </h1>
+<h2 class="text-gray-300 text-base md:text-lg font-normal leading-relaxed">
+                            Explicații clare pentru probleme juridice complexe. Rămâneți informat cu ultimele noutăți legislative și studii de caz relevante.
+                        </h2>
+</div>
+<div class="w-full max-w-[560px] z-10 mt-2">
+<div class="flex w-full items-center bg-white rounded-xl shadow-lg h-14 md:h-16 p-2 ring-4 ring-white/10">
+<div class="text-gray-400 flex items-center justify-center pl-4 pr-2">
+<span class="material-symbols-outlined text-2xl">search</span>
+</div>
+<input class="w-full bg-transparent border-none text-[#111318] text-base placeholder:text-gray-400 focus:ring-0 px-2 h-full" placeholder="Caută un subiect (ex: divorț, contracte, GDPR)..."/>
+<button class="bg-primary hover:bg-blue-700 text-white rounded-lg px-6 h-full font-bold text-sm transition-colors">
+                                Caută
+                            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Area -->
+<div class="flex-1 px-4 md:px-10 py-8 flex justify-center">
+<div class="w-full max-w-[1280px] flex flex-col gap-10">
+<!-- Filter Chips -->
+<div class="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#111318] text-white px-5 hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-sm">check</span>
+<span class="text-sm font-medium">Toate</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-[#1f2937] border border-[#e5e7eb] dark:border-gray-700 px-5 hover:border-primary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-gray-500 group-hover:text-primary text-sm">balance</span>
+<span class="text-[#111318] dark:text-gray-200 group-hover:text-primary text-sm font-medium">Drept Civil</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-[#1f2937] border border-[#e5e7eb] dark:border-gray-700 px-5 hover:border-primary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-gray-500 group-hover:text-primary text-sm">gavel</span>
+<span class="text-[#111318] dark:text-gray-200 group-hover:text-primary text-sm font-medium">Drept Penal</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-[#1f2937] border border-[#e5e7eb] dark:border-gray-700 px-5 hover:border-primary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-gray-500 group-hover:text-primary text-sm">storefront</span>
+<span class="text-[#111318] dark:text-gray-200 group-hover:text-primary text-sm font-medium">Drept Comercial</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-[#1f2937] border border-[#e5e7eb] dark:border-gray-700 px-5 hover:border-primary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-gray-500 group-hover:text-primary text-sm">apartment</span>
+<span class="text-[#111318] dark:text-gray-200 group-hover:text-primary text-sm font-medium">Imobiliare</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white dark:bg-[#1f2937] border border-[#e5e7eb] dark:border-gray-700 px-5 hover:border-primary hover:text-primary transition-colors group">
+<span class="material-symbols-outlined text-gray-500 group-hover:text-primary text-sm">diversity_3</span>
+<span class="text-[#111318] dark:text-gray-200 group-hover:text-primary text-sm font-medium">Dreptul Familiei</span>
+</button>
+</div>
+<!-- Featured Article -->
+<section class="w-full">
+<div class="flex flex-col md:flex-row bg-white dark:bg-[#1f2937] rounded-2xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 group cursor-pointer hover:shadow-md transition-shadow">
+<div class="md:w-3/5 h-64 md:h-auto bg-cover bg-center" data-alt="Person signing a legal document on a wooden desk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC-ZVjHqTQDgd-J6eB1w7XUShBnrjzjTQUghozOUBnq7Vvyn83fd_AphupWw9jN5g9vsE6JDABNbQlj1Lu2AVADTYk5OLsi8AscFfqUqTEJi8RpPFfbbsqXYFeSywHpQog2Y--r7XGcBQaOD4-MVtBRqK765Pr3tdRnQ-thU03sHOKajVggrM4gGebk9LsNA8ZiQ4lZvY9a5rc25ZguLgyEo8iKl27j7WLV9wag_3e4RUS5ucAZ3H2n4QngrW2oAtqmKOtvAaxGRGjY");'>
+</div>
+<div class="md:w-2/5 p-6 md:p-10 flex flex-col justify-center items-start gap-4">
+<div class="flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-primary dark:text-blue-300 text-xs font-bold uppercase tracking-wide">Featured</span>
+<span class="text-gray-400 dark:text-gray-500 text-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span> 14 Nov 2023
+                            </span>
+</div>
+<h2 class="text-2xl md:text-3xl font-bold text-[#111318] dark:text-white leading-tight group-hover:text-primary transition-colors">
+                            Ghid Complet: Cum să te pregătești pentru un proces civil în 2024
+                        </h2>
+<p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed line-clamp-3">
+                            Navigarea prin sistemul judiciar poate fi copleșitoare. Acest ghid detaliat explică pașii esențiali, documentele necesare și termenele limită pe care trebuie să le cunoști înainte de a ajunge în instanță.
+                        </p>
+<div class="flex items-center gap-3 mt-2">
+<div class="w-10 h-10 rounded-full bg-gray-200 bg-cover bg-center" data-alt="Portrait of Lawyer Diana Munteanu" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD-LAr0MvxRCOs6tHj0bHo6Rhn48HEDP1tCDlvZYS8Z6qwpsB28CZArhz993Fh0KGifOJfinWQX7uGZvbItAFPVq4VsOu18u1RTNULtqRi6v2BOAfeR8i6dyGrVb0KE7uf0ILKmaMdLCEfiOziqQ4udmQMzvy67kx_63ADLhKVk51Sc7uU_fWu7RTBBNwmf8bDV9uH3yVybLnJHzk4fbgTVzvFanhb8t4JeGMsssAQPiE1aAaqsznw1D9IjcRuLE6CbbRVPBcyyIubs");'></div>
+<div class="flex flex-col">
+<span class="text-sm font-bold text-[#111318] dark:text-white">Av. Diana Munteanu</span>
+<span class="text-xs text-gray-500">Partner • 8 min de citit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Grid Layout: Articles + Sidebar -->
+<div class="flex flex-col lg:flex-row gap-10">
+<!-- Articles Grid -->
+<div class="flex-1">
+<div class="flex items-center justify-between mb-6">
+<h3 class="text-xl font-bold text-[#111318] dark:text-white">Articole Recente</h3>
+<div class="flex items-center gap-2 text-sm text-gray-500 cursor-pointer hover:text-primary">
+<span>Sortează după: <span class="font-bold text-[#111318] dark:text-white">Cele mai noi</span></span>
+<span class="material-symbols-outlined text-[18px]">expand_more</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Card 1 -->
+<article class="flex flex-col bg-white dark:bg-[#1f2937] rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-blue-100 dark:hover:border-blue-900 transition-all group">
+<div class="h-48 bg-cover bg-center" data-alt="Modern office building facade representing commercial law" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBxi79wpMwRLDWfg6Cp7ymVpf3OyZmoc3rdlb_fPH-hO8PA8jkrNeN6mrXaRexXesGCVSPo_fXNkXqjpN3rigZshsJkegl7Dv9jZzVRxQhJ6d_ldaqwzkAXbMPjwR2t27sQHV148TpmNRSI04FzJsa7YgGQjV_XV_fTr97lsV9f91RJyYZdByNnzZhFw2_J2mU6WTA4yRRLYD-ofj2VCdQP_-LduqhJY9L0HEZuJxNEwK1wKz-g9jnF2jA7EnaTvsHDh-74NjCPrW_H");'></div>
+<div class="p-6 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-center">
+<span class="text-xs font-bold text-primary tracking-wide uppercase">Drept Comercial</span>
+<span class="text-xs text-gray-400">12 Oct 2023</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white leading-tight group-hover:text-primary transition-colors">
+                                    Modificări recente în Codul Fiscal 2024: Impactul asupra IMM-urilor
+                                </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-3">
+                                    O analiză detaliată a impactului noilor taxe asupra IMM-urilor și ce măsuri trebuie să ia antreprenorii pentru a rămâne conformi cu noile reglementări fiscale.
+                                </p>
+<div class="mt-auto pt-4 flex items-center justify-between border-t border-gray-100 dark:border-gray-700">
+<span class="text-xs font-medium text-gray-500">Av. Andrei Popescu</span>
+<span class="text-xs text-gray-400 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> 5 min</span>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="flex flex-col bg-white dark:bg-[#1f2937] rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-blue-100 dark:hover:border-blue-900 transition-all group">
+<div class="h-48 bg-cover bg-center" data-alt="Judge gavel and family photo representing family law" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwnAYxo9Ql1KzTFU3LvbAybyclUZxqf2RGRpROHZkKlvEN0PeB1bWfEWN4KPqoZBWdqE1FATBWC5YivT4eaMgYJ6Vj_ENSJ7UwYDIZh3vYcC_Hp6aUWfqn41VAOc48ee0_CRJMswIMp5d3bOWfLr-H9dXVggkEDjUxeubpfjxWzFixkP8jawwhctzd1r2cJ_8J46cDZkWo5DrVstr7YTk_PFuuOkApY7V7e4Y5OQjwEo_ArDj-awbj125PvtD98dqHiGSndZYYHJDe");'></div>
+<div class="p-6 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-center">
+<span class="text-xs font-bold text-pink-600 tracking-wide uppercase">Dreptul Familiei</span>
+<span class="text-xs text-gray-400">08 Oct 2023</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white leading-tight group-hover:text-primary transition-colors">
+                                    Partajul bunurilor în caz de divorț: Proceduri și sfaturi practice
+                                </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-3">
+                                    Află cum se împart bunurile dobândite în timpul căsătoriei și care sunt excepțiile prevăzute de lege în cazul bunurilor proprii.
+                                </p>
+<div class="mt-auto pt-4 flex items-center justify-between border-t border-gray-100 dark:border-gray-700">
+<span class="text-xs font-medium text-gray-500">Av. Maria Ionescu</span>
+<span class="text-xs text-gray-400 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> 7 min</span>
+</div>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="flex flex-col bg-white dark:bg-[#1f2937] rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-blue-100 dark:hover:border-blue-900 transition-all group">
+<div class="h-48 bg-cover bg-center" data-alt="Keys and house model on blueprints representing real estate law" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuArewq29wwJFbfMoMnG-68_KIMAM69aoGXeLo28-zcCkGcAuB2Rfi-qHCHpNHSNdUM-KcdXaTV82XYOrkoOl9Zglu9BNkQD7HT0ylcnCAYq7G9ptCSmWfTJ-QmqO_O64v2-PzMwsTCjsV3HFzrlxxRejsywS3R3scUxxxt-1kxUK_ZoQM8qgEm6Fv-h4Vc4JzbRX_wav_IPn87XnND0lfdT0tpaIFPYusTV5pRVTImYXYrxXJnzhPV5yiaPCaTwyOynW7kuJXOObVDR");'></div>
+<div class="p-6 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-center">
+<span class="text-xs font-bold text-green-600 tracking-wide uppercase">Imobiliare</span>
+<span class="text-xs text-gray-400">25 Sep 2023</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white leading-tight group-hover:text-primary transition-colors">
+                                    Riscurile achiziționării unui imobil "la roșu": La ce să fii atent
+                                </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-3">
+                                    Investiția într-un imobil nefinalizat poate fi profitabilă, dar vine cu riscuri majore. Vezi cum te poți proteja contractual.
+                                </p>
+<div class="mt-auto pt-4 flex items-center justify-between border-t border-gray-100 dark:border-gray-700">
+<span class="text-xs font-medium text-gray-500">Av. Radu Stanciu</span>
+<span class="text-xs text-gray-400 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> 4 min</span>
+</div>
+</div>
+</article>
+<!-- Card 4 -->
+<article class="flex flex-col bg-white dark:bg-[#1f2937] rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md hover:border-blue-100 dark:hover:border-blue-900 transition-all group">
+<div class="h-48 bg-cover bg-center" data-alt="Cybersecurity lock symbol on screen representing digital law" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtMOAa-sYdr4XqsZiJnYCppai_97LOSDXiTiF5p3K-aNc-mcHoNVJY95UodzrlSyjXD1FQpQr_akSCTz9YrPlX79j0sYmWoYk1fWlgb0qaWMlgixHE3Mr-SfuUumhnJnY_BfIw68QoLXDJ4E40DdYPyJZwyki47ZyklN4o1InBJV45A7VW6QoqXlSQjErJpf6V9FX2U3HJGv-WLmyWRGVFUv3-46E1tguwWzSbry0HiagkdEYCGpUz80iscsLmMKMgK5sm5azy9V3E");'></div>
+<div class="p-6 flex flex-col gap-3 flex-1">
+<div class="flex justify-between items-center">
+<span class="text-xs font-bold text-purple-600 tracking-wide uppercase">GDPR &amp; Tech</span>
+<span class="text-xs text-gray-400">15 Sep 2023</span>
+</div>
+<h3 class="text-lg font-bold text-[#111318] dark:text-white leading-tight group-hover:text-primary transition-colors">
+                                    Protecția datelor în era AI: Noi provocări pentru companii
+                                </h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm line-clamp-3">
+                                    Utilizarea inteligenței artificiale în procesarea datelor ridică noi probleme de conformitate GDPR. Recomandări pentru departamentele juridice.
+                                </p>
+<div class="mt-auto pt-4 flex items-center justify-between border-t border-gray-100 dark:border-gray-700">
+<span class="text-xs font-medium text-gray-500">Av. Elena Dumitrescu</span>
+<span class="text-xs text-gray-400 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span> 6 min</span>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination -->
+<div class="mt-10 flex justify-center">
+<button class="flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#1f2937] text-sm font-bold text-[#111318] dark:text-white hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors w-full md:w-auto">
+<span>Încarcă mai multe articole</span>
+<span class="material-symbols-outlined text-sm">arrow_downward</span>
+</button>
+</div>
+</div>
+<!-- Sidebar -->
+<aside class="w-full lg:w-[320px] flex flex-col gap-8 shrink-0">
+<!-- Newsletter Box -->
+<div class="bg-primary/5 dark:bg-[#1f2937] p-6 rounded-xl border border-primary/10 dark:border-gray-700">
+<div class="flex items-center gap-3 mb-3 text-primary dark:text-blue-400">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-sm font-bold uppercase tracking-wide">Newsletter</span>
+</div>
+<h4 class="text-lg font-bold text-[#111318] dark:text-white mb-2">Rămâi informat</h4>
+<p class="text-sm text-gray-500 mb-4">Primește săptămânal sinteza celor mai importante noutăți legislative direct în inbox.</p>
+<div class="flex flex-col gap-3">
+<input class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-sm px-3 py-2 focus:ring-primary focus:border-primary" placeholder="Adresa ta de email" type="email"/>
+<button class="w-full bg-primary hover:bg-blue-700 text-white font-bold text-sm py-2 rounded-lg transition-colors">Abonează-te</button>
+</div>
+<p class="text-xs text-gray-400 mt-3 text-center">Fără spam. Te poți dezabona oricând.</p>
+</div>
+<!-- Popular Articles -->
+<div class="bg-white dark:bg-[#1f2937] p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm">
+<h4 class="text-base font-bold text-[#111318] dark:text-white mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-orange-500">trending_up</span> Cele mai citite
+                        </h4>
+<div class="flex flex-col gap-5">
+<a class="group flex flex-col gap-1" href="#">
+<span class="text-xs font-medium text-gray-400">DREPT CIVIL</span>
+<span class="text-sm font-medium text-[#111318] dark:text-gray-200 group-hover:text-primary transition-colors">Ghidul succesiunilor: Drepturi și obligații legale</span>
+</a>
+<hr class="border-gray-100 dark:border-gray-700"/>
+<a class="group flex flex-col gap-1" href="#">
+<span class="text-xs font-medium text-gray-400">DREPTUL MUNCII</span>
+<span class="text-sm font-medium text-[#111318] dark:text-gray-200 group-hover:text-primary transition-colors">Concedierea abuzivă: Ce despăgubiri poți obține?</span>
+</a>
+<hr class="border-gray-100 dark:border-gray-700"/>
+<a class="group flex flex-col gap-1" href="#">
+<span class="text-xs font-medium text-gray-400">FISCALITATE</span>
+<span class="text-sm font-medium text-[#111318] dark:text-gray-200 group-hover:text-primary transition-colors">Impozitarea veniturilor din chirii în 2024</span>
+</a>
+</div>
+</div>
+<!-- Contact CTA -->
+<div class="bg-gradient-to-br from-[#101622] to-[#1e293b] p-6 rounded-xl text-white text-center relative overflow-hidden">
+<div class="absolute top-0 right-0 p-4 opacity-10">
+<span class="material-symbols-outlined text-8xl">gavel</span>
+</div>
+<h4 class="text-lg font-bold mb-2 relative z-10">Ai nevoie de asistență juridică?</h4>
+<p class="text-sm text-gray-300 mb-6 relative z-10">Echipa noastră de experți este pregătită să te ajute cu orice problemă legală.</p>
+<button class="w-full bg-white text-[#101622] hover:bg-gray-100 font-bold text-sm py-2.5 rounded-lg transition-colors relative z-10">
+                            Programează o consultanță
+                        </button>
+</div>
+<!-- Tags Cloud -->
+<div class="bg-white dark:bg-[#1f2937] p-6 rounded-xl border border-gray-100 dark:border-gray-700 shadow-sm">
+<h4 class="text-base font-bold text-[#111318] dark:text-white mb-4">Etichete Populare</h4>
+<div class="flex flex-wrap gap-2">
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#divort</a>
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#contracte</a>
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#startups</a>
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#mostenire</a>
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#gdpr</a>
+<a class="text-xs font-medium px-2.5 py-1 rounded bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors" href="#">#penal</a>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-white dark:bg-[#1a202c] border-t border-[#f0f2f4] dark:border-gray-700 mt-12 py-10">
+<div class="px-4 md:px-10 flex justify-center">
+<div class="layout-content-container max-w-[1280px] w-full flex flex-col md:flex-row justify-between gap-8">
+<div class="flex flex-col gap-4 max-w-xs">
+<div class="flex items-center gap-3 text-[#111318] dark:text-white">
+<div class="text-primary size-6 flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">balance</span>
+</div>
+<h2 class="text-[#111318] dark:text-white text-lg font-bold leading-tight">Avocat Partners</h2>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">
+                        Partenerul tău de încredere în navigarea complexității legale. Oferim consultanță juridică de top pentru persoane fizice și companii.
+                    </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-[#111318] dark:text-white">Companie</h4>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Despre Noi</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Echipa</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Cariere</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-[#111318] dark:text-white">Resurse</h4>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Blog Juridic</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Întrebări Frecvente</a>
+<a class="text-gray-500 hover:text-primary transition-colors" href="#">Termeni și Condiții</a>
+</div>
+<div class="flex flex-col gap-3 col-span-2 md:col-span-1">
+<h4 class="font-bold text-[#111318] dark:text-white">Contact</h4>
+<p class="text-gray-500">Strada Libertății 24, București</p>
+<p class="text-gray-500">contact@avocatpartners.ro</p>
+<p class="text-gray-500">+40 722 123 456</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 md:px-10 flex justify-center mt-10">
+<div class="max-w-[1280px] w-full border-t border-[#f0f2f4] dark:border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-gray-400">© 2024 Avocat Partners. Toate drepturile rezervate.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary" href="#"><span class="material-symbols-outlined text-lg">public</span></a>
+<!-- Using generic icons for social media placeholder since specific logos aren't in material symbols -->
+<a class="text-gray-400 hover:text-primary" href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+<a class="text-gray-400 hover:text-primary" href="#"><span class="material-symbols-outlined text-lg">rss_feed</span></a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
